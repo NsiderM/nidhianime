@@ -1,0 +1,250 @@
+body{
+    background-color: rgb(231, 233, 131);
+    font-family: sans-serif;
+    line-height: 1.6em;
+    margin: 0;
+}
+.container{
+     width: 80%;
+     margin: auto;
+     overflow: hidden;
+}
+
+#mainHeader{
+    background-color: rgb(202, 50, 80);
+    color: rgb(165, 231, 88);
+    text-align: center;
+    font-family: Amstelvar;
+    text-transform: uppercase;
+    line-height: 20px;
+}
+#mainNav{
+    background: rgb(28, 177, 127);
+    color: black;
+    text-align: center;
+
+}
+#mainNav ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+#mainNav li{
+    display: inline;
+    padding: 10px 20px;
+}
+#mainNav a{
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 20px;
+}
+#mainNav li:hover{
+    background-color: rgb(240, 237, 107);
+    transition: all 0.3s ease 0s;
+}
+#showCase{
+    background-image: url(../images/senku-ishigami-uhdpaper.com-hd-3.301.jpg);
+    background-position: center;
+    min-height: 480px;
+    border-bottom:3px solid #333;
+}
+#showCase h1{
+    color: rgb(28, 177, 127);
+    font-size: 45px;
+    padding-top: 80px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+#facts{
+    text-align: center;
+    text-decoration: underline;
+    padding: 30px;
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: .2em ;
+    background-color: crimson;
+    border-bottom:3px solid #333;
+}
+#facts h1{
+    padding-top: 30px;
+}
+.clearFix{
+    clear: both;
+}
+.factContainer {
+    border: 3px solid #333;
+}
+#sidebar{
+    float: left;
+    width: 40%;
+    padding: 10px;
+    border-right: 3px solid rgb(180, 65, 82) ;
+    box-sizing: border-box;
+    background-color: wheat;
+    background-image: url(../images/haruno-sakura-uchiha-sasuke-naruto-shippuden-naruto-uzumaki-kakashi-hatake-umino-iruka-1024x768-wallpaper-649239.jpg);
+    background-position: center ;
+    background-repeat: no-repeat;
+    min-height: 480px; 
+    
+}
+#main{
+    float: right;
+    width: 60%;
+    padding: 0 30px;
+    box-sizing: border-box;
+    
+}
+#main h2{
+    text-align: center;
+    text-decoration: underline; 
+    background-color: rgb(28, 177, 127);
+    padding: 10px 30px;
+    letter-spacing: .2em;
+    font-family: Amstelvar;
+}
+#main ul{
+    padding: 5px 15px;
+    list-style-type: square;
+}
+#main li{
+    padding: 7px 5px;
+    font-weight: 600;
+    word-spacing: .2em;
+}
+
+#sidebar2{
+    float: right;
+    width: 40%;
+    padding: 10px;
+    border-left: 3px solid rgb(180, 65, 82) ;
+    box-sizing: border-box;
+    background-color: wheat;
+    background-image: url(../images/fairy-tail-chapter-505-spoilers-lucy-and-juvia-to-stop-natslu-and.jpg); 
+    background-position: center ;
+    background-repeat: no-repeat;
+    min-height: 480px; 
+   
+}
+#main2{
+    float: left;
+    width: 60%;
+    padding: 0 30px;
+    box-sizing: border-box;
+    
+}
+#main2 h2{
+    text-align: center;
+    text-decoration: underline; 
+    background-color: rgb(38, 102, 185);
+    padding: 10px 30px;
+    letter-spacing: .2em;
+    font-family: Amstelvar;
+}
+#main2 ul{
+    padding: 5px 15px;
+    list-style-type: square;
+}
+#main2 li{
+    padding: 7px 5px;
+    font-weight: 600;
+    word-spacing: .2em;
+}
+#sidebar3{
+    float: left;
+    width: 40%;
+    padding: 10px;
+    border-right: 3px solid rgb(180, 65, 82) ;
+    box-sizing: border-box;
+    background-color: wheat;
+    background-image: url(../images/maxresdefault.jpg);
+    background-position: center ;
+    background-repeat: no-repeat;
+    min-height: 480px; 
+    
+}
+#main3{
+    float: right;
+    width: 60%;
+    padding: 0 30px;
+    box-sizing: border-box;
+    
+}
+#main3 h2{
+    text-align: center;
+    text-decoration: underline; 
+    background-color: rgb(175, 21, 54);
+    padding: 10px 30px;  
+    letter-spacing: .2em;
+    font-family: Amstelvar;
+}
+#main3 ul{
+    padding: 5px 15px;
+    list-style-type: square;
+}
+#main3 li{
+    padding: 7px 5px;
+    font-weight: 600;
+    word-spacing: .2em;
+}
+#sidebar4{
+    float: right;
+    width: 40%;
+    padding: 10px;
+    border-left: 3px solid rgb(180, 65, 82) ;
+    box-sizing: border-box;
+    background-color: wheat;
+    background-image: url(../images/Inagaki-int-1.jpg); 
+    background-position: center ;
+    background-repeat: no-repeat;
+    min-height: 480px; 
+   
+}
+#main4{
+    float: left;
+    width: 60%;
+    padding: 0 30px;
+    box-sizing: border-box;
+    
+}
+#main4 h2{
+    text-align: center;
+    text-decoration: underline; 
+    background-color: rgb(226, 122, 25);
+    padding: 10px 30px;
+    letter-spacing: .2em;
+    font-family: Amstelvar;
+}
+#main4 ul{
+    padding: 5px 15px;
+    list-style-type: square;
+}
+#main4 li{
+    padding: 7px 5px;
+    font-weight: 600;
+    word-spacing: .2em;
+}
+#color{
+    background: rgb(51, 58, 58);
+   padding-top: 8px;
+    margin: 0;
+    color: rgb(51, 58, 58);
+}
+#youtube{
+    margin-top: 150px;
+    border: 3px solid rgb(46, 44, 44);
+    text-align: center;
+    background: rgb(46, 44, 44) ;
+}
+
+#mainFooter{
+    background: rgb(46, 44, 44);
+    color: white;
+    text-align: center;
+    font-weight: 600;
+    padding: 20px;
+    margin: 0;
+   
+    }
+
+
